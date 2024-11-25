@@ -1,0 +1,38 @@
+# **Real-Time Chat Application**
+
+This is a real-time chat application built using **Node.js**, **Express**, **Socket.io**, and **HTML/CSS/JavaScript**. It allows users to send and receive messages instantly, with user-specific colored text boxes and a WhatsApp-style background.
+
+---
+
+## **Features**
+- Real-time messaging powered by WebSocket using **Socket.io**.
+- User-specific styling:
+  - Messages from **Person 1** and **Person 2** appear in different colored text boxes.
+  - WhatsApp-style chat interface with a customizable background.
+- Hosted on a live cloud platform.
+
+---
+
+## **Demo Links**
+- **Live Application:** [Chat App on Render]()
+- **GitHub Repository:** [Real-Time Chat App](https://github.com/rebaccamin5/COMP2068JSFrameworks)
+
+---
+
+## **How the Demo Application Works**
+1. **Choose a User**: 
+   - Select between **Person 1** or **Person 2**.
+2. **Send Messages**:
+   - Type a message and click the **send button** or press **Enter**.
+   - Messages appear in uniquely styled text boxes for each user.
+3. **Real-Time Updates**:
+   - Messages are broadcast instantly to all connected clients.
+
+---
+
+## **Technologies Used**
+- **Node.js**: Server-side JavaScript runtime.
+- **Express**: Framework for server routing.
+- **Socket.io**: Enables real-time, bidirectional communication.
+- **HTML/CSS/JavaScript**: Frontend structure, styling, and interactivity.
+- **Render**: Cloud platform for hosting the application.
